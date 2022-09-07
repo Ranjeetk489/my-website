@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import { trpc } from "../utils/trpc";
 
@@ -7,9 +8,10 @@ const Home: NextPage = () => {
   const hello = trpc.useQuery(["example.hello", { text: "from tRPC" }]);
 
   return (
-    <>
+    <div className="mx-auto">
      <Navbar></Navbar>
-    </>
+     <Hero></Hero>
+    </div>
   );
 };
 
