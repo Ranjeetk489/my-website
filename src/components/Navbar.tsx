@@ -10,7 +10,12 @@ const Navbar: FC = () => {
   const [dropDown, setDropDown] = useState("hidden");
   const router = useRouter();
   console.log(router.asPath);
-  const navItems: Array<string> = ["About", "Blogs", "Projects", "Contact"];
+  const navItems: Array<string> = [
+    "Blogs",
+    "Projects",
+    "Resume",
+    "Contact",
+  ];
 
   return (
     <>

@@ -9,8 +9,7 @@ const Home: NextPage = () => {
 
   return (
     <div className="mx-auto">
-     <Navbar></Navbar>
-     <Hero></Hero>
+      <Hero></Hero>
     </div>
   );
 };
