@@ -2,7 +2,7 @@
 import * as trpc from "@trpc/server";
 import * as trpcNext from "@trpc/server/adapters/next";
 import { Session } from "next-auth";
-import { getServerAuthSession } from "../../server/common/get-server-auth-session";
+// import { getServerAuthSession } from "../../server/common/get-server-auth-session";
 import { prisma } from "../db/client";
 
 type CreateContextOptions = {
@@ -29,11 +29,11 @@ export const createContext = async (
 ) => {
   const { req, res } = opts;
 
-  // Get the session from the server using the unstable_getServerSession wrapper function
-  const session = await getServerAuthSession({ req, res });
+  // // Get the session from the server using the unstable_getServerSession wrapper function
+  // const session = await getServerAuthSession({ req, res });
 
   return await createContextInner({
-    session,
+    // session,
   });
 };
 
