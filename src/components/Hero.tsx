@@ -23,7 +23,7 @@ const Hero: FC = () => {
         <span className=" hero-name ml-2 lg:ml-4">Ranjeet Kumar</span>
       </h1>
       <div className="text-slate-600 text-md leading-loose lg:mt-6 2xl:mt-[4vh]">
-        FullStack developer with expertise in Frontend development and
+        FullStack developer from India with expertise in Frontend development and
         JavaScript wizard,
         <span className="p-2 bg-slate-300 rounded-md mx-1">
           Movies and Books

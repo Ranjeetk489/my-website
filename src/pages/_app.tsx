@@ -8,7 +8,6 @@ import superjson from "superjson";
 import Navbar from "../components/Navbar";
 import type { AppRouter } from "../server/router";
 import "../styles/globals.css";
-import { Worker } from "@react-pdf-viewer/core";
 
 const MyApp: AppType = ({
   Component,
@@ -17,7 +16,7 @@ const MyApp: AppType = ({
   return (
     <SessionProvider session={session}>
       <Navbar></Navbar>
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js"></Worker>
+
       <Component {...pageProps} />
     </SessionProvider>
   );
