@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 // Your render function
 
-const Resume = ({ pdfFile }) => {
-  // console.log(pdfFile);
+const Resume = () => {
+  
   return (
     <motion.div
       className="w-[90vw] h-[100vh] mx-auto mt-[1rem] md:mt-[2rem]"
