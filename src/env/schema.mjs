@@ -21,7 +21,7 @@ export const serverSchema = z.object({
  */
 export const clientSchema = z.object({
   // NEXT_PUBLIC_BAR: z.string(),
-  NEXT_PUBLIC_GDRIVE: z.string(),
+  // NEXT_PUBLIC_GDRIVE: z.string(),
 });
 
 /**
