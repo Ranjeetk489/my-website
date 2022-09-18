@@ -18,13 +18,14 @@ const Hero: FC = () => {
     >
       <h1 className="text-[4.5rem] font-bold leading-tight lg:text-[6rem] ">
         <span className="text-[2.5rem] text-slate-700 lg:text-[3.5rem]">
+          {/*  eslint-disable-next-line react/no-unescaped-entities */}
           I'm
         </span>
         <span className=" hero-name ml-2 lg:ml-4">Ranjeet Kumar</span>
       </h1>
       <div className="text-slate-600 text-md leading-loose lg:mt-6 2xl:mt-[4vh]">
-        FullStack developer from India with expertise in Frontend development and
-        JavaScript wizard,
+        FullStack developer from India with expertise in Frontend development
+        and JavaScript wizard,
         <span className="p-2 bg-slate-300 rounded-md mx-1">
           Movies and Books
         </span>
@@ -53,6 +54,7 @@ const Hero: FC = () => {
         </span>
       </div>
       <div className="text-slate-800 font-semibold text-md leading-loose tracking-wide">
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         Open to New Opportunities or any fun projects, let's talk
         <span className="inline-flex cursor-pointer items-center gap-1 mx-1 bg-slate-200 px-2 rounded-md  hover:bg-[#4db283] hover:text-white">
           Schedule a call

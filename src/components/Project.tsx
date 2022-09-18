@@ -6,10 +6,10 @@ const Project = () => {
     <div>
       {data.map((item) => {
         return (
-          <div className="relative">
+          <div className="relative" key={Math.random()}>
             <div
               className="mt-8 border-l-[2px] border-[#d63129] pb-2 px-10  before:content-['⦿'] before:absolute before:-top-5 before:-left-[5px]  text-slate-700 mx-auto "
-              key={Math.random()}
+              
             >
               <div className="relative -top-[1rem]">
                 <ProjectTitle>{item.title}</ProjectTitle>

@@ -72,7 +72,7 @@ type NavItemProps = {
 const NavItem: FC<NavItemProps> = ({ children, linkTo }) => {
   return (
     <Link href={linkTo}>
-      <div className="nav-item  mt-6 ml-6 first:mt-12 text-md  text-white bg-inherit  md:text-black md:mt-0 md:first:mt-0 lg:mt-0 ">
+      <div className="nav-item cursor-pointer  mt-6 ml-6 first:mt-12 text-md  text-white bg-inherit  md:text-black md:mt-0 md:first:mt-0 lg:mt-0 ">
         {children}
       </div>
     </Link>
